@@ -21,12 +21,12 @@ Setting up JWT bearer authentication wihtin your web projects doesn't need to be
 Create a new or use an existing ASP web project and target .NET 4.6.1
 
 Install EasyJwtAuth via Nuget: 
-```c#
+```xml
 Install-Package EasyJwtAuth
 ```
 
 Add some appSettings in your Web.config
-```c#
+```xml
   <appSettings>
     <add key="audienceId" value="414e1927a3884f68abc79f7283837fd1" />
     <add key="issuer" value="http://localhost/" />
@@ -67,15 +67,6 @@ Create a OAuthProvider or find an existing one that implments OAuthAuthorization
 
 Open your App_Start folder and edit the Startup.Auth.cs file:
 
-```c#
-  <appSettings>
-    <add key="audienceId" value="414e1927a3884f68abc79f7283837fd1" />
-    <add key="issuer" value="http://localhost/" />
-    <add key="secret" value="IxrAjDoa2FqElO7IhrSrUJELhUckePEPVpaePlS_Xaw" />
-  </appSettings>
-```
-
-Create a OAuthProvider or find an existing one that implments OAuthAuthorizationServerProvider to validate your logins eg:
 ```c#
     public partial class Startup
     {
