@@ -2,16 +2,15 @@
 <package >
   <metadata>
     <id>EasyJwtAuth</id>
-    <version>1</version>
+    <version>1.0.0.4</version>
     <title>EasyJwtAuth</title>
     <authors>Alex White</authors>
     <owners>Alex White</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://github.com/Xela101/EasyJwtAuth/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Xela101/EasyJwtAuth</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides easy JWT Authentication into your .NET, MVC and WebAPI projects.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Easy Jwt Authentication in MVC and WebAPI projects.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>JWT OAuth OAuth2 EasyJWT Token JWTToken Authentication Authorization</tags>
   </metadata>
