@@ -18,7 +18,7 @@ app.UseEasyJwtAuthentication(easyJwtTokenOptions);
 Setting up JWT bearer authentication within your web projects doesn't need to be difficult :)
 
 ## Installation
-Create a new or use an existing ASP web project and target .NET 4.6.1
+Create a new or use an existing ASP web project
 
 Install EasyJwtAuth via Nuget: 
 ```xml
