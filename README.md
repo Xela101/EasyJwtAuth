@@ -40,6 +40,7 @@ Create a OAuthProvider or find an existing one that implments OAuthAuthorization
     {
         public override Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
         {
+            //If the username is the same as the password the user is validated :D
             if (context.UserName != context.Password)
             {
                 context.SetError("invalid_grant", "The user name or password is incorrect");
