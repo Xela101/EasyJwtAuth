@@ -15,7 +15,7 @@ app.UseEasyJwtAuthorizationServer(new CustomOAuthProvider(), easyJwtTokenOptions
 app.UseEasyJwtAuthentication(easyJwtTokenOptions);
 ```
 ## Motivation
-Setting up JWT bearer authentication wihtin your web projects doesn't need to be difficult :)
+Setting up JWT bearer authentication within your web projects doesn't need to be difficult :)
 
 ## Installation
 Create a new or use an existing ASP web project and target .NET 4.6.1
