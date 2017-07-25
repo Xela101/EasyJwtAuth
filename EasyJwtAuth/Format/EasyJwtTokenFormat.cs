@@ -13,7 +13,7 @@
     /// <summary>
     /// Signs and validates JWT tokens.
     /// </summary>
-    internal class EasyJwtTokenFormat : ISecureDataFormat<AuthenticationTicket>
+    public class EasyJwtTokenFormat : ISecureDataFormat<AuthenticationTicket>
     {
         private const string IssuedAtClaimName = "iat";
         private const string ExpiryClaimName = "exp";

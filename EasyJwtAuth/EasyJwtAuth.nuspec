@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EasyJwtAuth</id>
-    <version>1.0.0.4</version>
+    <version>1.0.0.5</version>
     <title>EasyJwtAuth</title>
     <authors>Alex White</authors>
     <owners>Alex White</owners>
